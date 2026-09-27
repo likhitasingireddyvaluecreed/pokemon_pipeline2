@@ -1,6 +1,6 @@
 import time
 
-from extract import (
+from pokemon.extract.extract import (
     create_session,
     get_pokemon,
     extract_pokemon,
@@ -9,23 +9,26 @@ from extract import (
     extract_moves
 )
 
-from logger import setup_logger
-from load_raw import save_to_parquet
-from transform_runner import run_transformation
-from load_raw import upsert_to_parquet
+from pokemon.logging.logger import setup_logger
+from pokemon.transform.transform_runner import run_transformation
+from pokemon.load.load_raw import upsert_to_parquet
 
-from duckdb_load import (
-    create_connection,
-    save_dataframe_to_duckdb
+from pokemon.load.duckdb_load import (
+    load_dataframe_to_duckdb
 )
 
 
 
 
 def main():
+    """
+    main file where extraction , transformation , load happens
+    """
 
+    #recording start time
     start_time = time.perf_counter()
 
+    #setting up logger
     logger = setup_logger()
 
     try:
@@ -39,7 +42,8 @@ def main():
 
         # discovering pokemon dataset urls
         logger.info("Discovering Pokemon resources")
-
+#============================= EXTRACTION ================================================================
+        #from extract module getting pokemon urls
         pokemon_urls, failed_pages = get_pokemon(
             session,
             logger
@@ -50,7 +54,7 @@ def main():
             len(pokemon_urls)
         )
 
-        # extracting pokemons from the urls
+        # from extract module extracting pokemon deails from the url
         pokemon_data, failed_pokemon = extract_pokemon(
             session,
             pokemon_urls,
@@ -63,7 +67,7 @@ def main():
             len(failed_pokemon)
         )
 
-        # saving the pokemon data into parquet
+        # saving the pokemon data into parquet (from load_raw module upsert_to_parquet function also ensure's idempotency)
         upsert_to_parquet(
             pokemon_data,
             "pokemon",
@@ -83,7 +87,7 @@ def main():
             len(species_urls)
         )
 
-        # extracting species from the url
+        # from extract module we are extracting species data from the urls
         species_data, failed_species = extract_species(
             session,
             species_urls,
@@ -96,14 +100,14 @@ def main():
             len(failed_species)
         )
 
-        # save the species data into parquet form
+        # saving the pokemon species data into parquet (from load_raw module upsert_to_parquet function also ensure's idempotency)
         upsert_to_parquet(
             species_data,
             "species",
             primary_key="id"
         )
 
-        # discover the move urls
+        # from extract module get the move urls
         move_urls = get_move(
             pokemon_data
         )
@@ -113,7 +117,7 @@ def main():
             len(move_urls)
         )
 
-        # extract move data from the move urls
+        # from extract module , extract move data from the move urls
         move_data, failed_moves = extract_moves(
             session,
             move_urls,
@@ -126,15 +130,18 @@ def main():
             len(failed_moves)
         )
 
-        # save the move data into parquet
+        # saving the pokemon move data into parquet (from load_raw module upsert_to_parquet function also ensure's idempotency)
         upsert_to_parquet(
             move_data,
             "moves",
             primary_key="id"
         )
 
+#========================================= TRANSFORMATION ==================================================
+        
         try:
 
+            #from transformation_runner module get the run_transformation file where we store transformed data 
             (
                 pokemon_df,
                 types_df,
@@ -162,83 +169,80 @@ def main():
 
             raise
 
-        # ============================================================
-        # 13. SAVE PROCESSED DATA TO DUCKDB
-        # ============================================================
+#================================ LOADING ===================================================================
 
         logger.info(
             "Saving processed datasets to DuckDB"
         )
 
-        connection = create_connection()
-
         try:
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 pokemon_df,
                 "pokemon",
-                connection
+                "pokemon_id"
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 types_df,
                 "pokemon_types",
-                connection
+                ["pokemon_id", "type_name"]
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 abilities_df,
                 "pokemon_abilities",
-                connection
+                ["pokemon_id", "ability_name"]
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 species_df,
                 "pokemon_species",
-                connection
+                "pokemon_id"
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 varieties_df,
                 "pokemon_varieties",
-                connection
+                ["species_id", "pokemon_id"]
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 types_dimension_df,
                 "types",
-                connection
+                "type_name"
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 abilities_dimension_df,
                 "abilities",
-                connection
+                "ability_name"
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 moves_df,
                 "moves",
-                connection
+                "move_id"
             )
 
-            save_dataframe_to_duckdb(
+            load_dataframe_to_duckdb(
                 pokemon_moves_df,
                 "pokemon_moves",
-                connection
+                ["pokemon_id", "move_id", "version_group"]
             )
 
             logger.info(
                 "All processed datasets saved to DuckDB"
             )
 
-        finally:
+        except Exception as e:
 
-            connection.close()
-
-            logger.info(
-                "DuckDB connection closed"
+            logger.exception(
+                "DuckDB loading failed | error=%s",
+                e
             )
+
+            raise
 
         # PIPELINE SUMMARY
 
