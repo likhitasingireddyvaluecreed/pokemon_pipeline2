@@ -1,0 +1,109 @@
+
+======================================================================
+TABLE: abilities
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+ability_name                  VARCHAR                  YES
+
+======================================================================
+TABLE: moves
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+move_id                       BIGINT                   YES
+move_name                     VARCHAR                  YES
+move_type                     VARCHAR                  YES
+power                         DOUBLE                   YES
+accuracy                      DOUBLE                   YES
+pp                            BIGINT                   YES
+priority                      BIGINT                   YES
+damage_class                  VARCHAR                  YES
+generation                    VARCHAR                  YES
+
+======================================================================
+TABLE: pokemon
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+pokemon_id                    BIGINT                   YES
+pokemon_name                  VARCHAR                  YES
+height_m                      DOUBLE                   YES
+weight_kg                     DOUBLE                   YES
+base_experience               BIGINT                   YES
+hp                            BIGINT                   YES
+attack                        BIGINT                   YES
+defense                       BIGINT                   YES
+special_attack                BIGINT                   YES
+special_defense               BIGINT                   YES
+speed                         BIGINT                   YES
+
+======================================================================
+TABLE: pokemon_abilities
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+pokemon_id                    BIGINT                   YES
+ability_name                  VARCHAR                  YES
+slot                          BIGINT                   YES
+is_hidden                     BOOLEAN                  YES
+
+======================================================================
+TABLE: pokemon_moves
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+pokemon_id                    BIGINT                   YES
+move_id                       BIGINT                   YES
+move_name                     VARCHAR                  YES
+learn_method                  VARCHAR                  YES
+level_learned_at              BIGINT                   YES
+version_group                 VARCHAR                  YES
+
+======================================================================
+TABLE: pokemon_species
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+pokemon_id                    BIGINT                   YES
+pokemon_category              VARCHAR                  YES
+generation                    VARCHAR                  YES
+color                         VARCHAR                  YES
+shape                         VARCHAR                  YES
+habitat                       VARCHAR                  YES
+capture_rate                  BIGINT                   YES
+base_happiness                BIGINT                   YES
+growth_rate                   VARCHAR                  YES
+gender_rate                   BIGINT                   YES
+hatch_counter                 BIGINT                   YES
+egg_group_1                   VARCHAR                  YES
+egg_group_2                   VARCHAR                  YES
+is_baby                       BOOLEAN                  YES
+is_legendary                  BOOLEAN                  YES
+is_mythical                   BOOLEAN                  YES
+
+======================================================================
+TABLE: pokemon_types
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+pokemon_id                    BIGINT                   YES
+type_name                     VARCHAR                  YES
+slot                          BIGINT                   YES
+
+======================================================================
+TABLE: pokemon_varieties
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+species_id                    BIGINT                   YES
+pokemon_id                    BIGINT                   YES
+pokemon_name                  VARCHAR                  YES
+is_default                    BOOLEAN                  YES
+
+======================================================================
+TABLE: types
+======================================================================
+COLUMN                        TYPE                     NULLABLE
+----------------------------------------------------------------------
+type_name                     VARCHAR                  YES
