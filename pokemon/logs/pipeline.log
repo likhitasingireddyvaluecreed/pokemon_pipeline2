@@ -1,0 +1,515 @@
+2026-09-27 02:36:27 | INFO | ======================================================================
+2026-09-27 02:36:27 | INFO | POKEMON ETL PIPELINE STARTED
+2026-09-27 02:36:27 | INFO | ======================================================================
+2026-09-27 02:36:27 | INFO | Discovering Pokemon resources
+2026-09-27 02:36:36 | INFO | Pokemon URLs discovered | count=1351
+2026-09-27 02:36:36 | INFO | pokemon extraction completed | success=1 failed=0
+2026-09-27 02:36:36 | INFO | Pokemon extraction completed | success=1 | failed=0
+2026-09-27 02:36:36 | INFO | Species resources discovered | count=1
+2026-09-27 02:36:36 | INFO | pokemon species extraction completed | success=1 | failed=0 
+2026-09-27 02:36:36 | INFO | Species extraction completed | success=1 | failed=0
+2026-09-27 02:36:36 | INFO | Move resources discovered | count=86
+2026-09-27 02:36:36 | INFO | pokemon move successfully extracted | success=1 | failed =0
+2026-09-27 02:36:36 | INFO | pokemon move successfully extracted | success=2 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=3 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=4 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=5 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=6 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=7 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=8 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=9 | failed =0
+2026-09-27 02:36:37 | INFO | pokemon move successfully extracted | success=10 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=11 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=12 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=13 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=14 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=15 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=16 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=17 | failed =0
+2026-09-27 02:36:38 | INFO | pokemon move successfully extracted | success=18 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=19 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=20 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=21 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=22 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=23 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=24 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=25 | failed =0
+2026-09-27 02:36:39 | INFO | pokemon move successfully extracted | success=26 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=27 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=28 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=29 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=30 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=31 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=32 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=33 | failed =0
+2026-09-27 02:36:40 | INFO | pokemon move successfully extracted | success=34 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=35 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=36 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=37 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=38 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=39 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=40 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=41 | failed =0
+2026-09-27 02:36:41 | INFO | pokemon move successfully extracted | success=42 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=43 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=44 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=45 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=46 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=47 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=48 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=49 | failed =0
+2026-09-27 02:36:42 | INFO | pokemon move successfully extracted | success=50 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=51 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=52 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=53 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=54 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=55 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=56 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=57 | failed =0
+2026-09-27 02:36:43 | INFO | pokemon move successfully extracted | success=58 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=59 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=60 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=61 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=62 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=63 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=64 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=65 | failed =0
+2026-09-27 02:36:44 | INFO | pokemon move successfully extracted | success=66 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=67 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=68 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=69 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=70 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=71 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=72 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=73 | failed =0
+2026-09-27 02:36:45 | INFO | pokemon move successfully extracted | success=74 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=75 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=76 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=77 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=78 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=79 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=80 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=81 | failed =0
+2026-09-27 02:36:46 | INFO | pokemon move successfully extracted | success=82 | failed =0
+2026-09-27 02:36:47 | INFO | pokemon move successfully extracted | success=83 | failed =0
+2026-09-27 02:36:47 | INFO | pokemon move successfully extracted | success=84 | failed =0
+2026-09-27 02:36:47 | INFO | pokemon move successfully extracted | success=85 | failed =0
+2026-09-27 02:36:47 | INFO | pokemon move successfully extracted | success=86 | failed =0
+2026-09-27 02:36:47 | INFO | Move extraction completed | success=86 | failed=0
+2026-09-27 02:36:47 | INFO | ======================================================================
+2026-09-27 02:36:47 | INFO | STARTING RAW PARQUET LOAD
+2026-09-27 02:36:47 | INFO | ======================================================================
+2026-09-27 02:36:47 | INFO | Raw data ready for transformation | pokemon=1 | species=1 | moves=86
+2026-09-27 02:36:47 | INFO | Starting transformation layer
+2026-09-27 02:36:47 | INFO | Transformation completed
+2026-09-27 02:36:47 | INFO | pokemon_df | rows=1 | columns=11
+2026-09-27 02:36:47 | INFO | types_df | rows=2 | columns=3
+2026-09-27 02:36:47 | INFO | types_dimension_df | rows=2 | columns=1
+2026-09-27 02:36:47 | INFO | abilities_df | rows=2 | columns=4
+2026-09-27 02:36:47 | INFO | abilities_dimension_df | rows=2 | columns=1
+2026-09-27 02:36:47 | INFO | species_df | rows=1 | columns=16
+2026-09-27 02:36:47 | INFO | varieties_df | rows=1 | columns=4
+2026-09-27 02:36:47 | INFO | moves_df | rows=86 | columns=9
+2026-09-27 02:36:47 | INFO | pokemon_moves_df | rows=1096 | columns=6
+2026-09-27 02:36:47 | INFO | Starting validation layer
+2026-09-27 02:36:47 | INFO | Validation passed | dataset=pokemon | records=1
+2026-09-27 02:36:47 | INFO | Unique key validation passed | dataset=pokemon | key=pokemon_id
+2026-09-27 02:36:47 | INFO | Non-negative validation passed | dataset=pokemon
+2026-09-27 02:36:47 | INFO | Validation passed | dataset=pokemon_species | records=1
+2026-09-27 02:36:47 | INFO | Unique key validation passed | dataset=pokemon_species | key=pokemon_id
+2026-09-27 02:36:47 | INFO | All validations passed
+2026-09-27 02:36:47 | INFO | Transformation and validation completed successfully
+2026-09-27 02:36:47 | INFO | ======================================================================
+2026-09-27 02:36:47 | INFO | PIPELINE COMPLETED
+2026-09-27 02:36:47 | INFO | Pokemon | success=1 | failed=0
+2026-09-27 02:36:47 | INFO | Species | success=1 | failed=0
+2026-09-27 02:36:47 | INFO | Moves | success=86 | failed=0
+2026-09-27 02:36:47 | INFO | Execution time = 20.06 seconds
+2026-09-27 02:36:47 | INFO | ======================================================================
+2026-09-27 02:41:55 | INFO | ======================================================================
+2026-09-27 02:41:55 | INFO | POKEMON ETL PIPELINE STARTED
+2026-09-27 02:41:55 | INFO | ======================================================================
+2026-09-27 02:41:55 | INFO | Discovering Pokemon resources
+2026-09-27 02:42:03 | INFO | Pokemon URLs discovered | count=1351
+2026-09-27 02:42:04 | INFO | pokemon extraction completed | success=1 failed=0
+2026-09-27 02:42:04 | INFO | Pokemon extraction completed | success=1 | failed=0
+2026-09-27 02:42:04 | INFO | Species resources discovered | count=1
+2026-09-27 02:42:04 | INFO | pokemon species extraction completed | success=1 | failed=0 
+2026-09-27 02:42:04 | INFO | Species extraction completed | success=1 | failed=0
+2026-09-27 02:42:04 | INFO | Move resources discovered | count=86
+2026-09-27 02:42:04 | INFO | pokemon move successfully extracted | success=1 | failed =0
+2026-09-27 02:42:04 | INFO | pokemon move successfully extracted | success=2 | failed =0
+2026-09-27 02:42:04 | INFO | pokemon move successfully extracted | success=3 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=4 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=5 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=6 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=7 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=8 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=9 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=10 | failed =0
+2026-09-27 02:42:05 | INFO | pokemon move successfully extracted | success=11 | failed =0
+2026-09-27 02:42:06 | INFO | pokemon move successfully extracted | success=12 | failed =0
+2026-09-27 02:42:06 | INFO | pokemon move successfully extracted | success=13 | failed =0
+2026-09-27 02:42:06 | INFO | pokemon move successfully extracted | success=14 | failed =0
+2026-09-27 02:42:06 | INFO | pokemon move successfully extracted | success=15 | failed =0
+2026-09-27 02:42:06 | INFO | pokemon move successfully extracted | success=16 | failed =0
+2026-09-27 02:42:06 | INFO | pokemon move successfully extracted | success=17 | failed =0
+2026-09-27 02:42:06 | INFO | pokemon move successfully extracted | success=18 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=19 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=20 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=21 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=22 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=23 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=24 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=25 | failed =0
+2026-09-27 02:42:07 | INFO | pokemon move successfully extracted | success=26 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=27 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=28 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=29 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=30 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=31 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=32 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=33 | failed =0
+2026-09-27 02:42:08 | INFO | pokemon move successfully extracted | success=34 | failed =0
+2026-09-27 02:42:09 | INFO | pokemon move successfully extracted | success=35 | failed =0
+2026-09-27 02:42:09 | INFO | pokemon move successfully extracted | success=36 | failed =0
+2026-09-27 02:42:09 | INFO | pokemon move successfully extracted | success=37 | failed =0
+2026-09-27 02:42:09 | INFO | pokemon move successfully extracted | success=38 | failed =0
+2026-09-27 02:42:09 | INFO | pokemon move successfully extracted | success=39 | failed =0
+2026-09-27 02:42:09 | INFO | pokemon move successfully extracted | success=40 | failed =0
+2026-09-27 02:42:09 | INFO | pokemon move successfully extracted | success=41 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=42 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=43 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=44 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=45 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=46 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=47 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=48 | failed =0
+2026-09-27 02:42:10 | INFO | pokemon move successfully extracted | success=49 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=50 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=51 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=52 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=53 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=54 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=55 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=56 | failed =0
+2026-09-27 02:42:11 | INFO | pokemon move successfully extracted | success=57 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=58 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=59 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=60 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=61 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=62 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=63 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=64 | failed =0
+2026-09-27 02:42:12 | INFO | pokemon move successfully extracted | success=65 | failed =0
+2026-09-27 02:42:13 | INFO | pokemon move successfully extracted | success=66 | failed =0
+2026-09-27 02:42:13 | INFO | pokemon move successfully extracted | success=67 | failed =0
+2026-09-27 02:42:13 | INFO | pokemon move successfully extracted | success=68 | failed =0
+2026-09-27 02:42:13 | INFO | pokemon move successfully extracted | success=69 | failed =0
+2026-09-27 02:42:13 | INFO | pokemon move successfully extracted | success=70 | failed =0
+2026-09-27 02:42:13 | INFO | pokemon move successfully extracted | success=71 | failed =0
+2026-09-27 02:42:13 | INFO | pokemon move successfully extracted | success=72 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=73 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=74 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=75 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=76 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=77 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=78 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=79 | failed =0
+2026-09-27 02:42:14 | INFO | pokemon move successfully extracted | success=80 | failed =0
+2026-09-27 02:42:15 | INFO | pokemon move successfully extracted | success=81 | failed =0
+2026-09-27 02:42:15 | INFO | pokemon move successfully extracted | success=82 | failed =0
+2026-09-27 02:42:15 | INFO | pokemon move successfully extracted | success=83 | failed =0
+2026-09-27 02:42:15 | INFO | pokemon move successfully extracted | success=84 | failed =0
+2026-09-27 02:42:15 | INFO | pokemon move successfully extracted | success=85 | failed =0
+2026-09-27 02:42:15 | INFO | pokemon move successfully extracted | success=86 | failed =0
+2026-09-27 02:42:15 | INFO | Move extraction completed | success=86 | failed=0
+2026-09-27 02:42:15 | INFO | ======================================================================
+2026-09-27 02:42:15 | INFO | STARTING RAW PARQUET LOAD
+2026-09-27 02:42:15 | INFO | ======================================================================
+2026-09-27 02:42:16 | INFO | Raw data ready for transformation | pokemon=1 | species=1 | moves=86
+2026-09-27 02:42:16 | INFO | Starting transformation layer
+2026-09-27 02:42:16 | INFO | Transformation completed
+2026-09-27 02:42:16 | INFO | pokemon_df | rows=1 | columns=11
+2026-09-27 02:42:16 | INFO | types_df | rows=2 | columns=3
+2026-09-27 02:42:16 | INFO | types_dimension_df | rows=2 | columns=1
+2026-09-27 02:42:16 | INFO | abilities_df | rows=2 | columns=4
+2026-09-27 02:42:16 | INFO | abilities_dimension_df | rows=2 | columns=1
+2026-09-27 02:42:16 | INFO | species_df | rows=1 | columns=16
+2026-09-27 02:42:16 | INFO | varieties_df | rows=1 | columns=4
+2026-09-27 02:42:16 | INFO | moves_df | rows=86 | columns=9
+2026-09-27 02:42:16 | INFO | pokemon_moves_df | rows=1096 | columns=6
+2026-09-27 02:42:16 | INFO | Starting validation layer
+2026-09-27 02:42:16 | INFO | Validation passed | dataset=pokemon | records=1
+2026-09-27 02:42:16 | INFO | Unique key validation passed | dataset=pokemon | key=pokemon_id
+2026-09-27 02:42:16 | INFO | Non-negative validation passed | dataset=pokemon
+2026-09-27 02:42:16 | INFO | Validation passed | dataset=pokemon_species | records=1
+2026-09-27 02:42:16 | INFO | Unique key validation passed | dataset=pokemon_species | key=pokemon_id
+2026-09-27 02:42:16 | INFO | All validations passed
+2026-09-27 02:42:16 | INFO | Transformation and validation completed successfully
+2026-09-27 02:42:16 | INFO | ======================================================================
+2026-09-27 02:42:16 | INFO | PIPELINE COMPLETED
+2026-09-27 02:42:16 | INFO | Pokemon | success=1 | failed=0
+2026-09-27 02:42:16 | INFO | Species | success=1 | failed=0
+2026-09-27 02:42:16 | INFO | Moves | success=86 | failed=0
+2026-09-27 02:42:16 | INFO | Execution time = 21.51 seconds
+2026-09-27 02:42:16 | INFO | ======================================================================
+2026-09-27 02:42:30 | INFO | ======================================================================
+2026-09-27 02:42:30 | INFO | POKEMON ETL PIPELINE STARTED
+2026-09-27 02:42:30 | INFO | ======================================================================
+2026-09-27 02:42:30 | INFO | Discovering Pokemon resources
+2026-09-27 02:42:38 | INFO | Pokemon URLs discovered | count=1351
+2026-09-27 02:42:39 | INFO | pokemon extraction completed | success=1 failed=0
+2026-09-27 02:42:39 | INFO | Pokemon extraction completed | success=1 | failed=0
+2026-09-27 02:42:39 | INFO | Species resources discovered | count=1
+2026-09-27 02:42:39 | INFO | pokemon species extraction completed | success=1 | failed=0 
+2026-09-27 02:42:39 | INFO | Species extraction completed | success=1 | failed=0
+2026-09-27 02:42:39 | INFO | Move resources discovered | count=86
+2026-09-27 02:42:39 | INFO | pokemon move successfully extracted | success=1 | failed =0
+2026-09-27 02:42:39 | INFO | pokemon move successfully extracted | success=2 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=3 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=4 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=5 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=6 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=7 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=8 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=9 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=10 | failed =0
+2026-09-27 02:42:40 | INFO | pokemon move successfully extracted | success=11 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=12 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=13 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=14 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=15 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=16 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=17 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=18 | failed =0
+2026-09-27 02:42:41 | INFO | pokemon move successfully extracted | success=19 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=20 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=21 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=22 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=23 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=24 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=25 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=26 | failed =0
+2026-09-27 02:42:42 | INFO | pokemon move successfully extracted | success=27 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=28 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=29 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=30 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=31 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=32 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=33 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=34 | failed =0
+2026-09-27 02:42:43 | INFO | pokemon move successfully extracted | success=35 | failed =0
+2026-09-27 02:42:44 | INFO | pokemon move successfully extracted | success=36 | failed =0
+2026-09-27 02:42:44 | INFO | pokemon move successfully extracted | success=37 | failed =0
+2026-09-27 02:42:44 | INFO | pokemon move successfully extracted | success=38 | failed =0
+2026-09-27 02:42:44 | INFO | pokemon move successfully extracted | success=39 | failed =0
+2026-09-27 02:42:44 | INFO | pokemon move successfully extracted | success=40 | failed =0
+2026-09-27 02:42:44 | INFO | pokemon move successfully extracted | success=41 | failed =0
+2026-09-27 02:42:44 | INFO | pokemon move successfully extracted | success=42 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=43 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=44 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=45 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=46 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=47 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=48 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=49 | failed =0
+2026-09-27 02:42:45 | INFO | pokemon move successfully extracted | success=50 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=51 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=52 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=53 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=54 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=55 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=56 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=57 | failed =0
+2026-09-27 02:42:46 | INFO | pokemon move successfully extracted | success=58 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=59 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=60 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=61 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=62 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=63 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=64 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=65 | failed =0
+2026-09-27 02:42:47 | INFO | pokemon move successfully extracted | success=66 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=67 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=68 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=69 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=70 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=71 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=72 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=73 | failed =0
+2026-09-27 02:42:48 | INFO | pokemon move successfully extracted | success=74 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=75 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=76 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=77 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=78 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=79 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=80 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=81 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=82 | failed =0
+2026-09-27 02:42:49 | INFO | pokemon move successfully extracted | success=83 | failed =0
+2026-09-27 02:42:50 | INFO | pokemon move successfully extracted | success=84 | failed =0
+2026-09-27 02:42:50 | INFO | pokemon move successfully extracted | success=85 | failed =0
+2026-09-27 02:42:50 | INFO | pokemon move successfully extracted | success=86 | failed =0
+2026-09-27 02:42:50 | INFO | Move extraction completed | success=86 | failed=0
+2026-09-27 02:42:50 | INFO | ======================================================================
+2026-09-27 02:42:50 | INFO | STARTING RAW PARQUET LOAD
+2026-09-27 02:42:50 | INFO | ======================================================================
+2026-09-27 02:42:50 | INFO | Raw data ready for transformation | pokemon=1 | species=1 | moves=86
+2026-09-27 02:42:50 | INFO | Starting transformation layer
+2026-09-27 02:42:51 | INFO | Transformation completed
+2026-09-27 02:42:51 | INFO | pokemon_df | rows=1 | columns=11
+2026-09-27 02:42:51 | INFO | types_df | rows=2 | columns=3
+2026-09-27 02:42:51 | INFO | types_dimension_df | rows=2 | columns=1
+2026-09-27 02:42:51 | INFO | abilities_df | rows=2 | columns=4
+2026-09-27 02:42:51 | INFO | abilities_dimension_df | rows=2 | columns=1
+2026-09-27 02:42:51 | INFO | species_df | rows=1 | columns=16
+2026-09-27 02:42:51 | INFO | varieties_df | rows=1 | columns=4
+2026-09-27 02:42:51 | INFO | moves_df | rows=86 | columns=9
+2026-09-27 02:42:51 | INFO | pokemon_moves_df | rows=1096 | columns=6
+2026-09-27 02:42:51 | INFO | Starting validation layer
+2026-09-27 02:42:51 | INFO | Validation passed | dataset=pokemon | records=1
+2026-09-27 02:42:51 | INFO | Unique key validation passed | dataset=pokemon | key=pokemon_id
+2026-09-27 02:42:51 | INFO | Non-negative validation passed | dataset=pokemon
+2026-09-27 02:42:51 | INFO | Validation passed | dataset=pokemon_species | records=1
+2026-09-27 02:42:51 | INFO | Unique key validation passed | dataset=pokemon_species | key=pokemon_id
+2026-09-27 02:42:51 | INFO | All validations passed
+2026-09-27 02:42:51 | INFO | Transformation and validation completed successfully
+2026-09-27 02:42:51 | INFO | ======================================================================
+2026-09-27 02:42:51 | INFO | PIPELINE COMPLETED
+2026-09-27 02:42:51 | INFO | Pokemon | success=1 | failed=0
+2026-09-27 02:42:51 | INFO | Species | success=1 | failed=0
+2026-09-27 02:42:51 | INFO | Moves | success=86 | failed=0
+2026-09-27 02:42:51 | INFO | Execution time = 20.45 seconds
+2026-09-27 02:42:51 | INFO | ======================================================================
+2026-09-27 03:02:42 | INFO | ======================================================================
+2026-09-27 03:02:42 | INFO | POKEMON ETL PIPELINE STARTED
+2026-09-27 03:02:42 | INFO | ======================================================================
+2026-09-27 03:02:42 | INFO | Discovering Pokemon resources
+2026-09-27 03:02:50 | INFO | Pokemon URLs discovered | count=1351
+2026-09-27 03:02:50 | INFO | pokemon extraction completed | success=1 failed=0
+2026-09-27 03:02:50 | INFO | Pokemon extraction completed | success=1 | failed=0
+2026-09-27 03:02:50 | INFO | Species resources discovered | count=1
+2026-09-27 03:02:51 | INFO | pokemon species extraction completed | success=1 | failed=0 
+2026-09-27 03:02:51 | INFO | Species extraction completed | success=1 | failed=0
+2026-09-27 03:02:51 | INFO | Move resources discovered | count=86
+2026-09-27 03:02:51 | INFO | pokemon move successfully extracted | success=1 | failed =0
+2026-09-27 03:02:51 | INFO | pokemon move successfully extracted | success=2 | failed =0
+2026-09-27 03:02:51 | INFO | pokemon move successfully extracted | success=3 | failed =0
+2026-09-27 03:02:51 | INFO | pokemon move successfully extracted | success=4 | failed =0
+2026-09-27 03:02:51 | INFO | pokemon move successfully extracted | success=5 | failed =0
+2026-09-27 03:02:51 | INFO | pokemon move successfully extracted | success=6 | failed =0
+2026-09-27 03:02:51 | INFO | pokemon move successfully extracted | success=7 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=8 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=9 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=10 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=11 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=12 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=13 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=14 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=15 | failed =0
+2026-09-27 03:02:52 | INFO | pokemon move successfully extracted | success=16 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=17 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=18 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=19 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=20 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=21 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=22 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=23 | failed =0
+2026-09-27 03:02:53 | INFO | pokemon move successfully extracted | success=24 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=25 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=26 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=27 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=28 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=29 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=30 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=31 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=32 | failed =0
+2026-09-27 03:02:54 | INFO | pokemon move successfully extracted | success=33 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=34 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=35 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=36 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=37 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=38 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=39 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=40 | failed =0
+2026-09-27 03:02:55 | INFO | pokemon move successfully extracted | success=41 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=42 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=43 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=44 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=45 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=46 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=47 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=48 | failed =0
+2026-09-27 03:02:56 | INFO | pokemon move successfully extracted | success=49 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=50 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=51 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=52 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=53 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=54 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=55 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=56 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=57 | failed =0
+2026-09-27 03:02:57 | INFO | pokemon move successfully extracted | success=58 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=59 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=60 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=61 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=62 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=63 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=64 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=65 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=66 | failed =0
+2026-09-27 03:02:58 | INFO | pokemon move successfully extracted | success=67 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=68 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=69 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=70 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=71 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=72 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=73 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=74 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=75 | failed =0
+2026-09-27 03:02:59 | INFO | pokemon move successfully extracted | success=76 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=77 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=78 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=79 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=80 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=81 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=82 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=83 | failed =0
+2026-09-27 03:03:00 | INFO | pokemon move successfully extracted | success=84 | failed =0
+2026-09-27 03:03:01 | INFO | pokemon move successfully extracted | success=85 | failed =0
+2026-09-27 03:03:01 | INFO | pokemon move successfully extracted | success=86 | failed =0
+2026-09-27 03:03:01 | INFO | Move extraction completed | success=86 | failed=0
+2026-09-27 03:03:01 | INFO | ======================================================================
+2026-09-27 03:03:01 | INFO | STARTING RAW PARQUET LOAD
+2026-09-27 03:03:01 | INFO | ======================================================================
+2026-09-27 03:03:01 | INFO | Raw data ready for transformation | pokemon=1 | species=1 | moves=86
+2026-09-27 03:03:01 | INFO | Starting transformation layer
+2026-09-27 03:03:01 | INFO | Transformation completed
+2026-09-27 03:03:01 | INFO | pokemon_df | rows=1 | columns=11
+2026-09-27 03:03:01 | INFO | types_df | rows=2 | columns=3
+2026-09-27 03:03:01 | INFO | types_dimension_df | rows=2 | columns=1
+2026-09-27 03:03:01 | INFO | abilities_df | rows=2 | columns=4
+2026-09-27 03:03:01 | INFO | abilities_dimension_df | rows=2 | columns=1
+2026-09-27 03:03:01 | INFO | species_df | rows=1 | columns=16
+2026-09-27 03:03:01 | INFO | varieties_df | rows=1 | columns=4
+2026-09-27 03:03:01 | INFO | moves_df | rows=86 | columns=9
+2026-09-27 03:03:01 | INFO | pokemon_moves_df | rows=1096 | columns=6
+2026-09-27 03:03:01 | INFO | Starting validation layer
+2026-09-27 03:03:01 | INFO | Validation passed | dataset=pokemon | records=1
+2026-09-27 03:03:01 | INFO | Unique key validation passed | dataset=pokemon | key=pokemon_id
+2026-09-27 03:03:02 | INFO | Non-negative validation passed | dataset=pokemon
+2026-09-27 03:03:02 | INFO | Validation passed | dataset=pokemon_species | records=1
+2026-09-27 03:03:02 | INFO | Unique key validation passed | dataset=pokemon_species | key=pokemon_id
+2026-09-27 03:03:02 | INFO | All validations passed
+2026-09-27 03:03:02 | INFO | Transformation and validation completed successfully
+2026-09-27 03:03:02 | INFO | Saving processed datasets to DuckDB
+2026-09-27 03:03:02 | INFO | All processed datasets saved to DuckDB
+2026-09-27 03:03:02 | INFO | DuckDB connection closed
+2026-09-27 03:03:02 | INFO | ======================================================================
+2026-09-27 03:03:02 | INFO | PIPELINE COMPLETED
+2026-09-27 03:03:02 | INFO | Pokemon | success=1 | failed=0
+2026-09-27 03:03:02 | INFO | Species | success=1 | failed=0
+2026-09-27 03:03:02 | INFO | Moves | success=86 | failed=0
+2026-09-27 03:03:02 | INFO | Execution time = 19.91 seconds
+2026-09-27 03:03:02 | INFO | ======================================================================
